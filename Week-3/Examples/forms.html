@@ -1,14 +1,35 @@
 <html>
-    <!--create form-->
-
-    <!--get and post methods-->
+<!--create form-->
+<form name="myForm" action="save.php" method="post">
 
     <!--text & password boxes-->
+    Name Surname<br /> <input type="text" name="name"><br>
+    Password<br /> <input type="password" name="password"><br>
+    About <br /> <textarea rows="7" cols="30" name="about"></textarea><br><br>
 
     <!--checkbox & radio button-->
+    Vehicle Types:<br>
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+    <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br><br>
+
+    Gender:<br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
 
     <!--option-->
+    Car brand:<br>
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select><br><br>
 
     <!--form buttons-->
+    Form Actions<br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
 
-</html>   
+</html>
