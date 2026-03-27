@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+
+<h1>Kayıt Formu</h1>
+
+<form action="kayit_yap.html" method="get">
+
+    <!-- İsim -->
+    <label>Ad Soyad:</label><br>
+    <input type="text" name="ad"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <!-- Şifre -->
+    <label>Şifre:</label><br>
+    <input type="password" name="sifre"><br><br>
+
+    <!-- Doğum Tarihi -->
+    <label>Doğum Tarihi:</label><br>
+    <input type="date" name="dogum"><br><br>
+
+    <!-- Cinsiyet -->
+    <label>Cinsiyet:</label><br>
+    <input type="radio" name="cinsiyet" value="erkek"> Erkek
+    <input type="radio" name="cinsiyet" value="kadin"> Kadın<br><br>
+
+    <!-- İlgi Alanları -->
+    <label>İlgi Alanları:</label><br>
+    <input type="checkbox" name="ilgi" value="oyun"> Oyun
+    <input type="checkbox" name="ilgi" value="yazilim"> Yazılım
+    <input type="checkbox" name="ilgi" value="spor"> Spor<br><br>
+
+    <!-- Şehir -->
+    <label>Şehir:</label><br>
+    <select name="sehir">
+        <option>Bursa</option>
+        <option>İstanbul</option>
+        <option>Ankara</option>
+    </select><br><br>
+
+    <!-- Gönder -->
+    <input type="submit" value="Kayıt Ol">
+
+</form>
+
+</body>
+</html>
