@@ -1,0 +1,36 @@
+{
+    "library": {
+        "book": [
+            {
+                "id": "1",
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "year": "1925",
+                "price": {
+                    "currency": "USD",
+                    "value": 10.99
+                }
+            },
+            {
+                "id": "2",
+                "title": "To Kill a Mockingbird",
+                "author": "Harper Lee",
+                "year": "1960",
+                "price": {
+                    "currency": "USD",
+                    "value": 8.99
+                }
+            },
+            {
+                "id": "3",
+                "title": "1984",
+                "author": "George Orwell",
+                "year": "1949",
+                "price": {
+                    "currency": "USD",
+                    "value": 13.99
+                }
+            }
+        ]
+    }
+}
